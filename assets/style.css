@@ -1,0 +1,111 @@
+header {
+    background-image: url(large_274099339_3155821757994816_3220872159563515509_n.7O50o.jpg);
+    background-size: cover;
+}
+.rty {
+    height: 1080px;
+    
+}
+.header-nav {
+    background-color: #000000;
+}
+.header-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.header-nav ul li {
+    padding: 10px 0px;
+    list-style: none
+}
+.header-nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-menu__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-menu__logo img {
+    height: 100px;
+    width: 100px;
+}
+.header-menu__logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-menu__logo-text p {
+    line-height: 5px;
+}
+.header-menu__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.header-menu__link-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header-menu__link-icon a img {
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+}
+.header-menu__phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: right;
+}
+.header-menu__phone a {
+    color: white !important;
+}
+.text h1{
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    color: #2600ff;
+    font-weight: 700;
+    font-size: 72px;
+    margin: 300px 0px;
+    box-shadow: #2600ff;
+}
+.button {
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.btn_link {
+    width: 320px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 50px;
+    border-radius: 12px;
+    text-decoration: none;
+}
