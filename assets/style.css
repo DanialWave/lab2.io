@@ -1,5 +1,5 @@
 header {
-    background-image: url(img/method2020.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/method2020.jpg);
     background-size: cover;
 }
 .rty {
@@ -8,16 +8,16 @@ header {
 }
 .header-nav {
     background-color: #000000;
+    border-radius: 12px;
 }
 .header-nav ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0;
-    margin: 0;
 }
 .header-nav ul li {
-    padding: 10px 0px;
+    padding: 10px 15px;
     list-style: none
 }
 .header-nav ul li a {
@@ -90,31 +90,11 @@ header {
     color: black;
     font-weight: 700;
     font-size: 72px;
-    margin: 300px 0px;
-    box-shadow: #2600ff;
-    background-color: white;
-    width: 1320px;
-    height: 100px;
-}
-.button {
-    color: blue;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.btn_link {
-    width: 320px;
-    height: 50px;
-    background-color: black;
-    color: white;
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-    padding: 5px 50px;
-    margin: -155px 500px;
-    border-radius: 12px;
-    text-decoration: none;
+    margin: 370px 0px;
+    max-width: 1320px;
+    max-height: 100px;
+    word-break:break-all;
+    text-shadow: 0 0 10px white,0 0 20px white,0 0 30px red,0 0 40px red;
 }
 .product{
     min-height: 800px;
@@ -165,9 +145,11 @@ header {
     justify-content: center;
     align-items: center;
     height: 280px;
+    padding: 60px;
+    margin: 60px;
 }
 .footer{
-    height: 300px;
+    height: 400px;
     background-image: url(img/5822158.png);
     background-size: cover;
 }
@@ -181,14 +163,15 @@ header {
     font-size: 18px;
     text-decoration: none;
     transition: 0.2s;
+
 }
 .footer-item h3:hover{
     color:white;
     transition: 0.2s;
-    text-decoration: underline;
+    text-shadow: 0 0 10px white,0 0 20px white,0 0 30px red,0 0 40px red;
 }
 .footer-item img{
-    height: 30px;
+    height: 50px;
 }
 .product-item a:hover{
     color:grey;
@@ -200,17 +183,11 @@ header {
     transition: 0.2s;
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
+.text h1:hover{
+    transition: 0.4s;
+    text-decoration: none;
+    text-shadow: 0 0 10px white,0 0 20px white,0 0 30px white,0 0 40px white;
+}
 
 
 
