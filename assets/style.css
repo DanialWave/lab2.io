@@ -144,12 +144,12 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 280px;
+    height: 320px;
     padding: 60px;
     margin: 60px;
 }
 .footer{
-    height: 400px;
+    height: 440px;
     background-image: url(img/5822158.png);
     background-size: cover;
 }
@@ -188,8 +188,6 @@ header {
     text-decoration: none;
     text-shadow: 0 0 10px white,0 0 20px white,0 0 30px white,0 0 40px white;
 }
-
-
 
 
 
